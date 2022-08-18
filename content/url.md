@@ -9,20 +9,18 @@ title: URL encoder and decoder
     <script type="text/javascript" src="/scripts/jquery-latest.min.js"></script>
     <script type="text/javascript" src="/scripts/base64.js"></script>
     <script type="text/javascript">
-        let isUrlSafe = false
-
         function encode() {
             let inputField = $('#inputFld'),
                 outputField = $('#outputFld')
 
-            outputField.val(encodeTextToB64(inputField.val(), isUrlSafe))
+            outputField.val(encodeURIComponent(inputField.val()))
         }
 
         function decode() {
             let inputField = $('#inputFld'),
                 outputField = $('#outputFld')
 
-            outputField.val(decodeB64ToText(inputField.val(), isUrlSafe))
+            outputField.val(encodeURIComponent(inputField.val()))
         }
     </script>
 
@@ -39,9 +37,6 @@ title: URL encoder and decoder
 
     <hr />
 
-    <input type="checkbox" name="toggleUrlSafeChk" id="toggleUrlSafeChk"
-           onclick="isUrlSafe = !isUrlSafe"/>
-    <label for="toggleUrlSafeChk">Is URL-safe</label>
     <button id="encodeBtn" onclick="encode()">Encode</button>
     <button id="decodeBtn" onclick="decode()">Decode</button>
 
