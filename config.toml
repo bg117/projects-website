@@ -1,4 +1,5 @@
-baseURL = "/projects"
+baseURL = "/"
+relativeURLs = true
 languageCode = "en-us"
 title = "bg117's random projects"
 theme = "terminal"
