@@ -1,4 +1,4 @@
-baseURL = "https://prismatic-lollipop-6213d5.netlify.app"
+baseURL = "/projects"
 languageCode = "en-us"
 title = "bg117's random projects"
 theme = "terminal"
