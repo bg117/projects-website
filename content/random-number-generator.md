@@ -96,6 +96,6 @@ title: Random number generator
 
     <hr />
 
-    <p style="font-size: 27px" id="genNumbersLbl"></p>
+    <p style="font-size: 1.5em" id="genNumbersLbl"></p>
 
 {{< /rawhtml >}}

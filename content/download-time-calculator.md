@@ -86,6 +86,6 @@ title: Download time calculator
 
     <button onclick="calculateDownloadTime()">Calculate download time</button>
 
-    <p style="font-size: 27px" id="downloadTimeLbl"></p>
+    <p style="font-size: 1.5em" id="downloadTimeLbl"></p>
 
 {{< /rawhtml>}}
