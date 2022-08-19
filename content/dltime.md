@@ -6,7 +6,6 @@ title: Download time calculator
 {{< rawhtml>}}
 
     <script type="text/javascript" src="/scripts/jquery-latest.min.js"></script>
-    <script type="text/javascript" src="/scripts/dltime.min.js"></script>
     <script type="text/javascript">
         function calculateDownloadTime() {
             let fileSizeField = $('#fileSizeFld'),
